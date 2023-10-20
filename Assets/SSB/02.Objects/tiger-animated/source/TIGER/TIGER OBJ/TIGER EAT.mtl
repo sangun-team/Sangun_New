@@ -1,0 +1,15 @@
+# Blender MTL File: 'TIGER.blend'
+# Material Count: 1
+
+newmtl Tiger_Default
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump C:\\Users\\BILAL CREATION\\AppData\\Local\\Temp\\iClone7Temp\\iClone7Temp\\FbxWorkingDirectory\\Tiger_Default_Bump.jpg
+map_Kd C:\\Users\\BILAL CREATION\\AppData\\Local\\Temp\\iClone7Temp\\iClone7Temp\\FbxWorkingDirectory\\Tiger_Default_Diffuse.jpg
+map_d C:\\Users\\BILAL CREATION\\AppData\\Local\\Temp\\iClone7Temp\\iClone7Temp\\FbxWorkingDirectory\\Tiger_Default_Opacity.jpg
