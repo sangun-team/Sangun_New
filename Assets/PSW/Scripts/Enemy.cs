@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     // 이동 속도
     public float speed = 5;
     // 쫓아갈 대상
-    GameObject target;
+    public GameObject target;
     // AI 설정
     NavMeshAgent agent;
     void Start()
