@@ -15,7 +15,7 @@ public class MainCam : MonoBehaviour
     public float offSetY = 10f; // 카메라의 y좌표
     public float offsetZ = -10; // 카메라의 z좌표
 
-    public float CameraSpeed = 10f; // 카메라의 속도
+    public float cameraSpeed = 10f; // 카메라의 속도
     Vector3 TargetPos; // 타겟의 위치
 
     private void Start()
@@ -26,11 +26,10 @@ public class MainCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         // 타겟의 x,y,z 좌표에 카메라의 좌표를 더하여 카메라의 위치를 결정
         TargetPos = new Vector3(target.transform.position.x + offSetX, target.transform.position.y + offSetY, target.transform.position.z + offsetZ);
         // 카메라의 움직임을 부드럽게 하는 함수
-        transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime * CameraSpeed);
+        transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime * cameraSpeed);
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
