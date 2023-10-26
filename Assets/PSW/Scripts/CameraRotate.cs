@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // 사용자의 입력에 따라 x와 y축의 회전을 하고 싶다.
-public class RotateCam : MonoBehaviour
+public class CameraRotate : MonoBehaviour
 {
     float rx;
     float ry;
