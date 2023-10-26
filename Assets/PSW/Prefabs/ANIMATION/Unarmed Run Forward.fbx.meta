@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 9c0400a8d5e9472429b57610e3942d0c
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'Josun_Male_Neck'
+      : rotation error = 13.985936 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Josun_Male_Neck' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Unarmed Run Forward(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josun_Male_1
+      parentName: Unarmed Run Forward(Clone)
+      position: {x: -0, y: -0.028695669, z: 0.020579439}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josun_Male
+      parentName: Unarmed Run Forward(Clone)
+      position: {x: -0.005179793, y: 0.9060336, z: -0.042512402}
+      rotation: {x: -0.50000036, y: 0.4999997, z: 0.49999964, w: 0.5000003}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999999}
+    - name: Josun_Male_Footsteps
+      parentName: Josun_Male
+      position: {x: -5.3863163e-17, y: 0, z: -0.8796439}
+      rotation: {x: -2.1648915e-17, y: 2.1648887e-17, z: -0.70710623, w: 0.70710737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josun_Male_Pelvis
+      parentName: Josun_Male
+      position: {x: -0.026390724, y: -4.5474734e-15, z: 0}
+      rotation: {x: 0.5, y: -0.5000007, z: -0.49999928, w: -0.5}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Josun_Male_Spine
+      parentName: Josun_Male_Pelvis
+      position: {x: -0.09167747, y: -0.00015520095, z: 1.9356321e-10}
+      rotation: {x: -0.0000020861626, y: -0.0000007748604, z: 0.047929227, w: 0.9988508}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Josun_Male_Spine1
+      parentName: Josun_Male_Spine
+      position: {x: -0.1957016, y: -0.00015510559, z: -4.2957252e-10}
+      rotation: {x: -0.000000059604645, y: -0.00000008940697, z: 0.04832688, w: 0.9988316}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Josun_Male_Neck
+      parentName: Josun_Male_Spine1
+      position: {x: -0.19576469, y: -0.00006515503, z: -1.7869752e-10}
+      rotation: {x: -0.00000006346905, y: -0.00000086986074, z: 0.3131613, w: -0.9497}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: Josun_Male_R_Clavicle
+      parentName: Josun_Male_Neck
+      position: {x: -0.009915771, y: -0.0022164916, z: -0.049307927}
+      rotation: {x: -0.5452294, y: -0.26431268, z: -0.76752377, w: 0.20921518}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: Josun_Male_R_UpperArm
+      parentName: Josun_Male_R_Clavicle
+      position: {x: -0.15801907, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.17933927, y: 0.116775736, z: -0.061092105, w: -0.9749198}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Josun_Male_R_Forearm
+      parentName: Josun_Male_R_UpperArm
+      position: {x: -0.23919769, y: 0, z: 0}
+      rotation: {x: -0.0076834243, y: 0.028681569, z: -0.02760732, w: -0.99917775}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: Josun_Male_R_Hand
+      parentName: Josun_Male_R_Forearm
+      position: {x: -0.23919761, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.8149831, y: -0.00000001785321, z: 0.00000007450578, w: 0.5794847}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000004}
+    - name: Josun_Male_R_Finger4
+      parentName: Josun_Male_R_Hand
+      position: {x: -0.06263893, y: 0.000029144287, z: -0.03672512}
+      rotation: {x: 0.09712662, y: -0.017545639, z: -0.0095397085, w: 0.9950717}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1.0000002}
+    - name: Josun_Male_R_Finger41
+      parentName: Josun_Male_R_Finger4
+      position: {x: -0.035834312, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.00000008195634, y: -0.0000010859214, z: -0.03974972, w: 0.9992097}
+      scale: {x: 1, y: 1.0000006, z: 1.0000002}
+    - name: Josun_Male_R_Finger42
+      parentName: Josun_Male_R_Finger41
+      position: {x: -0.01844345, y: 0, z: 0}
+      rotation: {x: 0.00000010095484, y: 0.0000005525249, z: -0.037771065, w: 0.9992864}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000004}
+    - name: Josun_Male_R_Finger4Nub
+      parentName: Josun_Male_R_Finger42
+      position: {x: -0.023826523, y: 0, z: -0.000000038146972}
+      rotation: {x: 3.4216233e-25, y: 0.000000005587935, z: 1, w: 6.123234e-17}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1}
+    - name: Josun_Male_R_Finger0
+      parentName: Josun_Male_R_Hand
+      position: {x: -0.008913956, y: 0.012685165, z: 0.03459755}
+      rotation: {x: 0.5488537, y: -0.4358059, z: -0.16601983, w: -0.6937365}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000001}
+    - name: Josun_Male_R_Finger01
+      parentName: Josun_Male_R_Finger0
+      position: {x: -0.0238266, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.0000006854531, y: -0.0000021457663, z: 0.033551812, w: -0.999437}
+      scale: {x: 1.0000004, y: 1, z: 1.0000007}
+    - name: Josun_Male_R_Finger02
+      parentName: Josun_Male_R_Finger01
+      position: {x: -0.030422134, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.00000008962259, y: -0.00000074928914, z: 0.039824266, w: 0.9992067}
+      scale: {x: 0.99999994, y: 1, z: 0.9999996}
+    - name: Josun_Male_R_Finger0Nub
+      parentName: Josun_Male_R_Finger02
+      position: {x: -0.031035423, y: 0, z: 0}
+      rotation: {x: -0.0000000074505815, y: 0.000000014901161, z: 1, w: 1.7225465e-16}
+      scale: {x: -0.99999994, y: -1, z: -1}
+    - name: Josun_Male_R_Finger3
+      parentName: Josun_Male_R_Hand
+      position: {x: -0.06268165, y: -0.001982956, z: -0.014170456}
+      rotation: {x: 0.004705279, y: 0.00030919252, z: -0.032598257, w: 0.9994574}
+      scale: {x: 1.0000002, y: 0.99999946, z: 1.0000002}
+    - name: Josun_Male_R_Finger31
+      parentName: Josun_Male_R_Finger3
+      position: {x: -0.055461578, y: -0.000000076293944, z: 0.000000038146972}
+      rotation: {x: -0.0000002724118, y: -0.0000007343186, z: -0.031037696, w: 0.9995183}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000001}
+    - name: Josun_Male_R_Finger32
+      parentName: Josun_Male_R_Finger31
+      position: {x: -0.023397446, y: 0.000000076293944, z: -0.000000038146972}
+      rotation: {x: -0.00000022149719, y: 0.0000021223207, z: -0.037767235, w: 0.9992866}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Josun_Male_R_Finger3Nub
+      parentName: Josun_Male_R_Finger32
+      position: {x: -0.02758171, y: 0.000000076293944, z: -0.000000038146972}
+      rotation: {x: 4.5536495e-18, y: 0.0000000048894435, z: 1, w: 9.313227e-10}
+      scale: {x: -1, y: -1, z: -1.0000001}
+    - name: Josun_Male_R_Finger1
+      parentName: Josun_Male_R_Hand
+      position: {x: -0.06263889, y: -0.0056851194, z: 0.028587455}
+      rotation: {x: 0.021929579, y: 0.08701302, z: -0.031878185, w: 0.9954555}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.99999994}
+    - name: Josun_Male_R_Finger11
+      parentName: Josun_Male_R_Finger1
+      position: {x: -0.05269363, y: -0.000000076293944, z: 0.000000038146972}
+      rotation: {x: 0.00000025704495, y: -0.0000006407497, z: -0.034395427, w: 0.99940836}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Josun_Male_R_Finger12
+      parentName: Josun_Male_R_Finger11
+      position: {x: -0.023333816, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.00000006550655, y: -0.000000977066, z: -0.037770666, w: 0.9992864}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000002}
+    - name: Josun_Male_R_Finger1Nub
+      parentName: Josun_Male_R_Finger12
+      position: {x: -0.024877548, y: 0, z: 0}
+      rotation: {x: -0.000000014901159, y: 0.000000007450581, z: 1, w: 1.7225463e-16}
+      scale: {x: -1.0000001, y: -1, z: -1}
+    - name: Josun_Male_R_Finger2
+      parentName: Josun_Male_R_Hand
+      position: {x: -0.063423, y: -0.004522018, z: 0.0053959657}
+      rotation: {x: -0.019592755, y: 0.045556985, z: -0.045911912, w: 0.9977138}
+      scale: {x: 1.0000004, y: 0.9999996, z: 1.0000001}
+    - name: Josun_Male_R_Finger21
+      parentName: Josun_Male_R_Finger2
+      position: {x: -0.05646118, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.000000059604623, y: 0.00000021606677, z: -0.0301783, w: 0.99954456}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Josun_Male_R_Finger22
+      parentName: Josun_Male_R_Finger21
+      position: {x: -0.028537368, y: 0, z: 0}
+      rotation: {x: -0.000000046437105, y: -0.0000013407104, z: -0.03777101, w: 0.9992864}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Josun_Male_R_Finger2Nub
+      parentName: Josun_Male_R_Finger22
+      position: {x: -0.028380737, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.000000014901161, y: 0.000000013038516, z: 1, w: -0.000000011175871}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Josun_Male_L_Clavicle
+      parentName: Josun_Male_Neck
+      position: {x: -0.009915847, y: -0.002216835, z: 0.049307916}
+      rotation: {x: 0.5452305, y: 0.26431486, z: -0.7675226, w: 0.20921373}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.9999995}
+    - name: Josun_Male_L_UpperArm
+      parentName: Josun_Male_L_Clavicle
+      position: {x: -0.15801907, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.17933941, y: 0.116775304, z: 0.061092094, w: 0.9749198}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.000001}
+    - name: Josun_Male_L_Forearm
+      parentName: Josun_Male_L_UpperArm
+      position: {x: -0.23919761, y: 0, z: 0}
+      rotation: {x: -0.0076835733, y: 0.028681181, z: 0.027607577, w: 0.9991778}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: Josun_Male_L_Hand
+      parentName: Josun_Male_L_Forearm
+      position: {x: -0.23919773, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.81498307, y: -0.00000008584572, z: 0.00000006670082, w: -0.5794847}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Josun_Male_L_Finger0
+      parentName: Josun_Male_L_Hand
+      position: {x: -0.008913879, y: 0.012685165, z: -0.03459755}
+      rotation: {x: -0.548853, y: 0.43580338, z: -0.16602245, w: -0.6937381}
+      scale: {x: 0.99999946, y: 1.0000004, z: 0.99999994}
+    - name: Josun_Male_L_Finger01
+      parentName: Josun_Male_L_Finger0
+      position: {x: -0.02382659, y: 0, z: 0}
+      rotation: {x: 0.00000023841844, y: 0.000003516672, z: 0.03355601, w: -0.99943686}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000001}
+    - name: Josun_Male_L_Finger02
+      parentName: Josun_Male_L_Finger01
+      position: {x: -0.030422172, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.000000035850487, y: 0.00000043619687, z: 0.039828405, w: 0.99920654}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
+    - name: Josun_Male_L_Finger0Nub
+      parentName: Josun_Male_L_Finger02
+      position: {x: -0.031035442, y: 0, z: 0}
+      rotation: {x: -0.000000014901161, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Josun_Male_L_Finger4
+      parentName: Josun_Male_L_Hand
+      position: {x: -0.06263889, y: 0.00002922058, z: 0.03672512}
+      rotation: {x: -0.09712713, y: 0.01754468, z: -0.009537243, w: 0.99507165}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1}
+    - name: Josun_Male_L_Finger41
+      parentName: Josun_Male_L_Finger4
+      position: {x: -0.035834312, y: 0, z: 0}
+      rotation: {x: 0.000000052154054, y: -0.00000028498465, z: -0.039751977, w: 0.99920964}
+      scale: {x: 0.9999998, y: 1.0000012, z: 1.0000006}
+    - name: Josun_Male_L_Finger42
+      parentName: Josun_Male_L_Finger41
+      position: {x: -0.018443527, y: 0, z: 0.000000038146972}
+      rotation: {x: -0.00000028148128, y: 0.0000006204269, z: -0.037769675, w: 0.99928653}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000004}
+    - name: Josun_Male_L_Finger4Nub
+      parentName: Josun_Male_L_Finger42
+      position: {x: -0.023826523, y: 0, z: 0}
+      rotation: {x: 0.0000000037252903, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josun_Male_L_Finger3
+      parentName: Josun_Male_L_Hand
+      position: {x: -0.062681615, y: -0.001982956, z: 0.014170456}
+      rotation: {x: -0.0047057862, y: -0.00030884985, z: -0.03259799, w: 0.9994574}
+      scale: {x: 1.000001, y: 0.99999994, z: 1}
+    - name: Josun_Male_L_Finger31
+      parentName: Josun_Male_L_Finger3
+      position: {x: -0.055461463, y: 0.000000076293944, z: -0.000000038146972}
+      rotation: {x: 0.00000018300481, y: -0.0000016814441, z: -0.031037977, w: 0.9995182}
+      scale: {x: 0.9999996, y: 1.000001, z: 1.0000002}
+    - name: Josun_Male_L_Finger32
+      parentName: Josun_Male_L_Finger31
+      position: {x: -0.02339737, y: 0, z: 0}
+      rotation: {x: 0.00000022302288, y: 0.00000031782466, z: -0.037771657, w: 0.99928635}
+      scale: {x: 1.0000008, y: 0.99999934, z: 1.0000004}
+    - name: Josun_Male_L_Finger3Nub
+      parentName: Josun_Male_L_Finger32
+      position: {x: -0.02758171, y: 0, z: 0}
+      rotation: {x: 0.0000000030267984, y: -0.000000014901161, z: 0.000000003259629, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josun_Male_L_Finger1
+      parentName: Josun_Male_L_Hand
+      position: {x: -0.06263889, y: -0.005685043, z: -0.028587379}
+      rotation: {x: -0.021930028, y: -0.087012604, z: -0.031877823, w: 0.99545556}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000001}
+    - name: Josun_Male_L_Finger11
+      parentName: Josun_Male_L_Finger1
+      position: {x: -0.052693672, y: -0.000000076293944, z: -0.000000038146972}
+      rotation: {x: 0.00000024586905, y: -0.0000018924466, z: -0.0343942, w: 0.99940836}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000004}
+    - name: Josun_Male_L_Finger12
+      parentName: Josun_Male_L_Finger11
+      position: {x: -0.023333931, y: 0, z: 0}
+      rotation: {x: -0.00000015868109, y: 0.00000037155516, z: -0.037769895, w: 0.99928653}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: Josun_Male_L_Finger1Nub
+      parentName: Josun_Male_L_Finger12
+      position: {x: -0.024877548, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josun_Male_L_Finger2
+      parentName: Josun_Male_L_Hand
+      position: {x: -0.06342296, y: -0.004522018, z: -0.0053959657}
+      rotation: {x: 0.019592367, y: -0.04555721, z: -0.045910772, w: 0.9977138}
+      scale: {x: 1.0000005, y: 0.9999997, z: 1.0000001}
+    - name: Josun_Male_L_Finger21
+      parentName: Josun_Male_L_Finger2
+      position: {x: -0.05646118, y: 0, z: 0}
+      rotation: {x: 0.0000005997715, y: -0.00000037625418, z: -0.030179573, w: 0.9995445}
+      scale: {x: 0.9999998, y: 1.0000008, z: 1.0000005}
+    - name: Josun_Male_L_Finger22
+      parentName: Josun_Male_L_Finger21
+      position: {x: -0.028537292, y: -0.000000076293944, z: 0.000000038146972}
+      rotation: {x: -0.00000003593435, y: 0.0000004865807, z: -0.037768632, w: 0.9992865}
+      scale: {x: 1.000001, y: 0.9999998, z: 1.0000008}
+    - name: Josun_Male_L_Finger2Nub
+      parentName: Josun_Male_L_Finger22
+      position: {x: -0.028380737, y: 0, z: 0}
+      rotation: {x: 5.551115e-17, y: -0.000000014901161, z: 0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Josun_Male_Head
+      parentName: Josun_Male_Neck
+      position: {x: -0.101751246, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.000000029802322, y: -0.00000037252903, z: 0.15279895, w: 0.98825735}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+    - name: Josun_Male_HeadNub
+      parentName: Josun_Male_Head
+      position: {x: -0.18737136, y: 0, z: -2.910383e-13}
+      rotation: {x: 0.000000024400629, y: -0.0000000064401307, z: 0.000000029802326, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Josun_Male_R_Thigh
+      parentName: Josun_Male_Spine
+      position: {x: 0.09127106, y: -0.00862318, z: -0.0888561}
+      rotation: {x: 0.05009522, y: 0.99299055, z: -0.077443644, w: -0.07391094}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Josun_Male_R_Calf
+      parentName: Josun_Male_R_Thigh
+      position: {x: -0.397522, y: 0, z: 0}
+      rotation: {x: 0.0000000318978, y: 0.000000014901163, z: 0.112990834, w: 0.9935961}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Josun_Male_R_Foot
+      parentName: Josun_Male_R_Calf
+      position: {x: -0.4080829, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.005598988, y: -0.071118556, z: -0.10852403, w: 0.9915309}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: Josun_Male_R_Toe0
+      parentName: Josun_Male_R_Foot
+      position: {x: -0.09169248, y: 0.1180042, z: 0}
+      rotation: {x: 0.00000006472691, y: -0.000000059604638, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Josun_Male_R_Toe0Nub
+      parentName: Josun_Male_R_Toe0
+      position: {x: -0.09270472, y: 0, z: 0}
+      rotation: {x: -4.7690238e-26, y: -8.389755e-13, z: -5.6843426e-14, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Josun_Male_L_Thigh
+      parentName: Josun_Male_Spine
+      position: {x: 0.09127113, y: -0.008623676, z: 0.08885633}
+      rotation: {x: 0.050095428, y: 0.9929904, z: 0.07744637, w: 0.0739107}
+      scale: {x: 0.99999994, y: 1, z: 1.0000004}
+    - name: Josun_Male_L_Calf
+      parentName: Josun_Male_L_Thigh
+      position: {x: -0.39752197, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.000000037020065, y: 0.000000044703473, z: 0.112990916, w: 0.993596}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Josun_Male_L_Foot
+      parentName: Josun_Male_L_Calf
+      position: {x: -0.40808296, y: 0.000000009536743, z: 0}
+      rotation: {x: -0.0055990093, y: 0.071118444, z: -0.10852421, w: 0.9915308}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: Josun_Male_L_Toe0
+      parentName: Josun_Male_L_Foot
+      position: {x: -0.091692485, y: 0.1180042, z: 0}
+      rotation: {x: -0.00000007683409, y: 0.00000007450579, z: -0.70710665, w: 0.70710695}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: Josun_Male_L_Toe0Nub
+      parentName: Josun_Male_L_Toe0
+      position: {x: -0.092704736, y: 1.8626451e-11, z: 0}
+      rotation: {x: 0.000000007449679, y: 4.239214e-22, z: 1, w: -5.690465e-14}
+      scale: {x: -1, y: -1, z: -1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
