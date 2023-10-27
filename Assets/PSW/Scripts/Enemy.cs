@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public enum State
     {
         Idle,
-        Move
+        Move,
     }
     // 상태
     public State state;
@@ -19,8 +19,11 @@ public class Enemy : MonoBehaviour
     public GameObject target;
     // AI 설정
     NavMeshAgent agent;
+    // 애니메이션
+    public Animator anim;
     void Start()
     {
+        anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -52,5 +55,15 @@ public class Enemy : MonoBehaviour
         agent.destination = target.transform.position;
         // 목적지와 나의 거리를 재고 싶다.
         float distance = Vector3.Distance(this.transform.position, target.transform.position);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            // anim 실행
+            anim.SetTrigger("Wall");
+            Destroy(this, 5);
+        }
     }
 }
