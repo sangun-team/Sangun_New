@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SSB_ Mountain_Range.unity
+    path: Assets/Scene/SSB_ Mountain_Range.unity
     guid: 1958221dc1a4fc24895c3921146eb06c
   - enabled: 1
-    path: Assets/PSW/Scene/PSW_Story.unity
+    path: Assets/Scene/PSW_Story.unity
     guid: 2d9f9f78b80b5204891d4909c2a67bc7
   m_configObjects: {}
