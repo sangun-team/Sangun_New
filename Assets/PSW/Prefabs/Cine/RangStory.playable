@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4730925598652471306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  DisplayName: 
+  VirtualCamera:
+    exposedName: 7ac8b4cee21ee7d479352adc9b748e3d
+    defaultValue: {fileID: 0}
 --- !u!114 &-239019394662765629
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -62,7 +78,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -239019394662765629}
-    m_Duration: 5
+    m_Duration: 3.033333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1629892659605550449}
     m_EaseInDuration: 0
@@ -128,9 +144,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam1
   - m_Version: 1
-    m_Start: 5.116666666666666
+    m_Start: 3.5
     m_ClipIn: 0
-    m_Asset: {fileID: 8838469811414807331}
+    m_Asset: {fileID: -4730925598652471306}
     m_Duration: 5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1629892659605550449}
@@ -195,22 +211,6 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CinemachineShot
+    m_DisplayName: CM vcam2
   m_Markers:
     m_Objects: []
---- !u!114 &8838469811414807331
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
-  m_Name: CinemachineShot
-  m_EditorClassIdentifier: 
-  DisplayName: 
-  VirtualCamera:
-    exposedName: 
-    defaultValue: {fileID: 0}
