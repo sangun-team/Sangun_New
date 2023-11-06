@@ -32,6 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,10 +56,13 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 4a65f6eddf7ea904a893ccd57b0496ec, type: 2}
@@ -69,6 +73,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -81,6 +86,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!54 &8534622943686876367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -219,19 +225,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigid: {fileID: 5214890542760438051, guid: ec7eb2d05c44a71458feb6597c573458, type: 3}
-  bowScript: {fileID: 5646583742453961361, guid: 69348f8e8e4992d4ebaf9e8c9fb68750,
-    type: 3}
+  bowScript: {fileID: 5646583742453961361, guid: 69348f8e8e4992d4ebaf9e8c9fb68750, type: 3}
   quiver: {fileID: 0}
   timeLimitToDePool: 5
   effectOfVelocityOnParticleEmission: 0.5
-  projectileHitParticleFlesh: {fileID: 1088171423, guid: fc6f7e0bb7905fd468af0326c2a0d6c4,
-    type: 3}
-  projectileHitParticleWood: {fileID: 1088171423, guid: 1b6c81ebd5ea23c448e537bba8b4da50,
-    type: 3}
-  projectileHitParticleStone: {fileID: 1088171423, guid: 83387b787ffe0bc45800192bd8ce359b,
-    type: 3}
-  projectileHitParticleMetal: {fileID: 8956267301420205715, guid: 98919ba1e473e784e91a93e807412311,
-    type: 3}
+  projectileHitParticleFlesh: {fileID: 1088171423, guid: fc6f7e0bb7905fd468af0326c2a0d6c4, type: 3}
+  projectileHitParticleWood: {fileID: 1088171423, guid: 1b6c81ebd5ea23c448e537bba8b4da50, type: 3}
+  projectileHitParticleStone: {fileID: 1088171423, guid: 83387b787ffe0bc45800192bd8ce359b, type: 3}
+  projectileHitParticleMetal: {fileID: 8956267301420205715, guid: 98919ba1e473e784e91a93e807412311, type: 3}
   hitSoundFlesh: {fileID: 8300000, guid: d3d82c2805336d444aa0e8ac92c6fa2b, type: 3}
   hitSoundWood: {fileID: 8300000, guid: 2d6b2a7ff4097bd4fb93856ad88829f3, type: 3}
   hitSoundStone: {fileID: 8300000, guid: 04bb057c8e601d4478693db478b4d0ca, type: 3}

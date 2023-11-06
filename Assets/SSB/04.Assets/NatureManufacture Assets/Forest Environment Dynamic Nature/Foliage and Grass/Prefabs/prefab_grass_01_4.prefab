@@ -28,7 +28,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5571927646685793292}
   m_RootOrder: 1
@@ -40,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5571927646685958184}
-  m_Mesh: {fileID: 4300002, guid: 6bc894472945e0f47a893d45e8a88148, type: 3}
+  m_Mesh: {fileID: 4300004, guid: 6bc894472945e0f47a893d45e8a88148, type: 3}
 --- !u!23 &5571927646684024552
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52,7 +51,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -110,7 +108,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5571927646685793294}
   - {fileID: 5571927646685793288}
@@ -127,15 +124,15 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: -0.042586625, y: 0.1442373, z: 0.0077513456}
   m_Size: 1.0666738
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
   - screenRelativeHeight: 0.25
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5571927646684024558}
-  - screenRelativeHeight: 0.056091394
+  - screenRelativeHeight: 0.049301445
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5571927646684024552}
@@ -168,7 +165,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5571927646685793292}
   m_RootOrder: 0
@@ -180,7 +176,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5571927646685958190}
-  m_Mesh: {fileID: 4300000, guid: 6bc894472945e0f47a893d45e8a88148, type: 3}
+  m_Mesh: {fileID: 4300006, guid: 6bc894472945e0f47a893d45e8a88148, type: 3}
 --- !u!23 &5571927646684024558
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -192,7 +188,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
