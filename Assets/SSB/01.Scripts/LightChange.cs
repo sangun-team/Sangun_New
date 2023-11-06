@@ -16,13 +16,21 @@ public class LightChange : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
      Light directionalLight;
+=======
+    Light directionalLight;
+>>>>>>> HDRP-New-Main
     public float intensityAmount = 0.1f;
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         if(Input.GetKeyDown(KeyCode.Alpha5))
+=======
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+>>>>>>> HDRP-New-Main
         {
             directionalLight.intensity += intensityAmount;
         }
