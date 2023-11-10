@@ -118,7 +118,7 @@ public class StandardizedProjectileForHand : MonoBehaviour
                 }
                 // Re-add the projectile to the bow quiver
                 transform.parent = quiver;
-                bowScript.projectilePool.Enqueue(gameObject); // Pooling
+              //  bowScript.projectilePool.Enqueue(gameObject); // Pooling
             }
             else
             {
