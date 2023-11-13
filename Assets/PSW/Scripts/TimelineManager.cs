@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class TimelineManager : MonoBehaviour
@@ -14,9 +15,10 @@ public class TimelineManager : MonoBehaviour
 
     public GameObject mideaArtCam;
 
-    public VideoPlayer video1; // 그림 설명 1
-    public VideoPlayer video2; // 그림 설명 2
-    public VideoPlayer video3; // 그림 설명 3
+    public VideoPlayer video;
+    public VideoClip[] videoClips;
+    public GameObject rawImage;
+    public GameObject backImage;
 
     void Start()
     {
@@ -28,10 +30,14 @@ public class TimelineManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            mideaArtCam.SetActive(true);
-            video1.Play();
-            video2.Stop();
-            video3.Stop();
+            RenderTexture rt = new RenderTexture(1920, 1080, 24);
+            rawImage.GetComponent<RawImage>().texture = rt;
+            video.targetTexture = rt;
+            video.clip = videoClips[0];
+            video.Play();
+            rawImage.SetActive(true);
+            backImage.SetActive(true);
+
             bgm[1].Stop();
             bgm[2].Stop();
             bgm[3].Stop();
@@ -41,12 +47,12 @@ public class TimelineManager : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Alpha2))
         {
-            mideaArtCam.SetActive(false);
+            rawImage.SetActive(false);
+            backImage.SetActive(false);
+            video.Stop();
             pd.playableAsset = timelines[0];
             pd.Play();
-            video1.Stop();
-            video2.Stop();
-            video3.Stop();
+
             bgm[0].Stop();
             bgm[2].Stop();
             bgm[3].Stop();
@@ -56,10 +62,14 @@ public class TimelineManager : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Alpha3))
         {
-            mideaArtCam.SetActive(true);
-            video1.Stop();
-            video3.Stop();
-            video2.Play();
+            RenderTexture rt = new RenderTexture(1920, 1080, 24);
+            rawImage.GetComponent<RawImage>().texture = rt;
+            video.targetTexture = rt;
+            video.clip = videoClips[1];
+            video.Play();
+            rawImage.SetActive(true);
+            backImage.SetActive(true);
+
             bgm[0].Stop();
             bgm[1].Stop();
             bgm[3].Stop();
@@ -69,12 +79,12 @@ public class TimelineManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            mideaArtCam.SetActive(false);
+            rawImage.SetActive(false);
+            backImage.SetActive(false);
+            video.Stop();
             pd.playableAsset = timelines[1];
             pd.Play();
-            video1.Stop();
-            video2.Stop();
-            video3.Stop();
+
             bgm[0].Stop();
             bgm[1].Stop();
             bgm[2].Stop();
@@ -84,10 +94,14 @@ public class TimelineManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            mideaArtCam.SetActive(true);
-            video1.Stop();
-            video2.Stop();
-            video3.Play();
+            RenderTexture rt = new RenderTexture(1920, 1080, 24);
+            rawImage.GetComponent<RawImage>().texture = rt;
+            video.targetTexture = rt;
+            video.clip = videoClips[2];
+            video.Play();
+            rawImage.SetActive(true);
+            backImage.SetActive(true);
+
             bgm[0].Stop();
             bgm[1].Stop();
             bgm[2].Stop();
@@ -97,12 +111,12 @@ public class TimelineManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha6))
         {
-            mideaArtCam.SetActive(false);
+            rawImage.SetActive(false);
+            backImage.SetActive(false);
+            video.Stop();
             pd.playableAsset = timelines[2];
             pd.Play();
-            video1.Stop();
-            video2.Stop();
-            video3.Stop();
+
             bgm[0].Stop();
             bgm[1].Stop();
             bgm[2].Stop();
