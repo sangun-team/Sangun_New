@@ -1,311 +1,113 @@
 fileFormatVersion: 2
 guid: bcea2c8b73a157b4d8baec1f987e7b67
+timeCreated: 1503919388
+licenseType: Store
 ModelImporter:
-  serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Deer_Head_JawEndSHJnt
-  - first:
-      1: 100002
-    second: Deer_Head_JawSHJnt
-  - first:
-      1: 100004
-    second: Deer_Head_TopSHJnt
-  - first:
-      1: 100006
-    second: Deer_l_Clavicle_01_01SHJnt
-  - first:
-      1: 100008
-    second: Deer_l_Ear_01_01SHJnt
-  - first:
-      1: 100010
-    second: Deer_l_Ear_01_02SHJnt
-  - first:
-      1: 100012
-    second: Deer_l_Ear_01_03SHJnt
-  - first:
-      1: 100014
-    second: Deer_l_FrontLeg_AnkleSHJnt
-  - first:
-      1: 100016
-    second: Deer_l_FrontLeg_BallSHJnt
-  - first:
-      1: 100018
-    second: Deer_l_FrontLeg_HipSHJnt
-  - first:
-      1: 100020
-    second: Deer_l_FrontLeg_Knee1SHJnt
-  - first:
-      1: 100022
-    second: Deer_l_FrontLeg_Knee2SHJnt
-  - first:
-      1: 100024
-    second: Deer_l_FrontLeg_ToeSHJnt
-  - first:
-      1: 100026
-    second: Deer_l_HindLeg_AnkleSHJnt
-  - first:
-      1: 100028
-    second: Deer_l_HindLeg_BallSHJnt
-  - first:
-      1: 100030
-    second: Deer_l_HindLeg_HipSHJnt
-  - first:
-      1: 100032
-    second: Deer_l_HindLeg_Knee1SHJnt
-  - first:
-      1: 100034
-    second: Deer_l_HindLeg_Knee2SHJnt
-  - first:
-      1: 100036
-    second: Deer_l_HindLeg_ToeSHJnt
-  - first:
-      1: 100038
-    second: Deer_MAINSHJnt
-  - first:
-      1: 100040
-    second: Deer_Neck_01SHJnt
-  - first:
-      1: 100042
-    second: Deer_Neck_02SHJnt
-  - first:
-      1: 100044
-    second: Deer_Neck_TopSHJnt
-  - first:
-      1: 100046
-    second: Deer_r_Clavicle_01_01SHJnt
-  - first:
-      1: 100048
-    second: Deer_r_Ear_01_01SHJnt
-  - first:
-      1: 100050
-    second: Deer_r_Ear_01_02SHJnt
-  - first:
-      1: 100052
-    second: Deer_r_Ear_01_03SHJnt
-  - first:
-      1: 100054
-    second: Deer_r_FrontLeg_AnkleSHJnt
-  - first:
-      1: 100056
-    second: Deer_r_FrontLeg_BallSHJnt
-  - first:
-      1: 100058
-    second: Deer_r_FrontLeg_HipSHJnt
-  - first:
-      1: 100060
-    second: Deer_r_FrontLeg_Knee1SHJnt
-  - first:
-      1: 100062
-    second: Deer_r_FrontLeg_Knee2SHJnt
-  - first:
-      1: 100064
-    second: Deer_r_FrontLeg_ToeSHJnt
-  - first:
-      1: 100066
-    second: Deer_r_HindLeg_AnkleSHJnt
-  - first:
-      1: 100068
-    second: Deer_r_HindLeg_BallSHJnt
-  - first:
-      1: 100070
-    second: Deer_r_HindLeg_HipSHJnt
-  - first:
-      1: 100072
-    second: Deer_r_HindLeg_Knee1SHJnt
-  - first:
-      1: 100074
-    second: Deer_r_HindLeg_Knee2SHJnt
-  - first:
-      1: 100076
-    second: Deer_r_HindLeg_ToeSHJnt
-  - first:
-      1: 100078
-    second: Deer_ROOTSHJnt
-  - first:
-      1: 100080
-    second: Deer_Spine_01SHJnt
-  - first:
-      1: 100082
-    second: Deer_Spine_02SHJnt
-  - first:
-      1: 100084
-    second: Deer_Spine_03SHJnt
-  - first:
-      1: 100086
-    second: Deer_Spine_04SHJnt
-  - first:
-      1: 100088
-    second: Deer_Spine_TopSHJnt
-  - first:
-      1: 100090
-    second: Deer_Tail_01_01SHJnt
-  - first:
-      1: 100092
-    second: Deer_Tail_01_02SHJnt
-  - first:
-      1: 100094
-    second: Deer_Tail_01_03SHJnt
-  - first:
-      1: 100096
-    second: //RootNode
-  - first:
-      4: 400000
-    second: Deer_Head_JawEndSHJnt
-  - first:
-      4: 400002
-    second: Deer_Head_JawSHJnt
-  - first:
-      4: 400004
-    second: Deer_Head_TopSHJnt
-  - first:
-      4: 400006
-    second: Deer_l_Clavicle_01_01SHJnt
-  - first:
-      4: 400008
-    second: Deer_l_Ear_01_01SHJnt
-  - first:
-      4: 400010
-    second: Deer_l_Ear_01_02SHJnt
-  - first:
-      4: 400012
-    second: Deer_l_Ear_01_03SHJnt
-  - first:
-      4: 400014
-    second: Deer_l_FrontLeg_AnkleSHJnt
-  - first:
-      4: 400016
-    second: Deer_l_FrontLeg_BallSHJnt
-  - first:
-      4: 400018
-    second: Deer_l_FrontLeg_HipSHJnt
-  - first:
-      4: 400020
-    second: Deer_l_FrontLeg_Knee1SHJnt
-  - first:
-      4: 400022
-    second: Deer_l_FrontLeg_Knee2SHJnt
-  - first:
-      4: 400024
-    second: Deer_l_FrontLeg_ToeSHJnt
-  - first:
-      4: 400026
-    second: Deer_l_HindLeg_AnkleSHJnt
-  - first:
-      4: 400028
-    second: Deer_l_HindLeg_BallSHJnt
-  - first:
-      4: 400030
-    second: Deer_l_HindLeg_HipSHJnt
-  - first:
-      4: 400032
-    second: Deer_l_HindLeg_Knee1SHJnt
-  - first:
-      4: 400034
-    second: Deer_l_HindLeg_Knee2SHJnt
-  - first:
-      4: 400036
-    second: Deer_l_HindLeg_ToeSHJnt
-  - first:
-      4: 400038
-    second: Deer_MAINSHJnt
-  - first:
-      4: 400040
-    second: Deer_Neck_01SHJnt
-  - first:
-      4: 400042
-    second: Deer_Neck_02SHJnt
-  - first:
-      4: 400044
-    second: Deer_Neck_TopSHJnt
-  - first:
-      4: 400046
-    second: Deer_r_Clavicle_01_01SHJnt
-  - first:
-      4: 400048
-    second: Deer_r_Ear_01_01SHJnt
-  - first:
-      4: 400050
-    second: Deer_r_Ear_01_02SHJnt
-  - first:
-      4: 400052
-    second: Deer_r_Ear_01_03SHJnt
-  - first:
-      4: 400054
-    second: Deer_r_FrontLeg_AnkleSHJnt
-  - first:
-      4: 400056
-    second: Deer_r_FrontLeg_BallSHJnt
-  - first:
-      4: 400058
-    second: Deer_r_FrontLeg_HipSHJnt
-  - first:
-      4: 400060
-    second: Deer_r_FrontLeg_Knee1SHJnt
-  - first:
-      4: 400062
-    second: Deer_r_FrontLeg_Knee2SHJnt
-  - first:
-      4: 400064
-    second: Deer_r_FrontLeg_ToeSHJnt
-  - first:
-      4: 400066
-    second: Deer_r_HindLeg_AnkleSHJnt
-  - first:
-      4: 400068
-    second: Deer_r_HindLeg_BallSHJnt
-  - first:
-      4: 400070
-    second: Deer_r_HindLeg_HipSHJnt
-  - first:
-      4: 400072
-    second: Deer_r_HindLeg_Knee1SHJnt
-  - first:
-      4: 400074
-    second: Deer_r_HindLeg_Knee2SHJnt
-  - first:
-      4: 400076
-    second: Deer_r_HindLeg_ToeSHJnt
-  - first:
-      4: 400078
-    second: Deer_ROOTSHJnt
-  - first:
-      4: 400080
-    second: Deer_Spine_01SHJnt
-  - first:
-      4: 400082
-    second: Deer_Spine_02SHJnt
-  - first:
-      4: 400084
-    second: Deer_Spine_03SHJnt
-  - first:
-      4: 400086
-    second: Deer_Spine_04SHJnt
-  - first:
-      4: 400088
-    second: Deer_Spine_TopSHJnt
-  - first:
-      4: 400090
-    second: Deer_Tail_01_01SHJnt
-  - first:
-      4: 400092
-    second: Deer_Tail_01_02SHJnt
-  - first:
-      4: 400094
-    second: Deer_Tail_01_03SHJnt
-  - first:
-      4: 400096
-    second: //RootNode
-  - first:
-      74: 7400000
-    second: Deer_walk
-  - first:
-      95: 9500000
-    second: //RootNode
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Deer_Head_JawEndSHJnt
+    100002: Deer_Head_JawSHJnt
+    100004: Deer_Head_TopSHJnt
+    100006: Deer_l_Clavicle_01_01SHJnt
+    100008: Deer_l_Ear_01_01SHJnt
+    100010: Deer_l_Ear_01_02SHJnt
+    100012: Deer_l_Ear_01_03SHJnt
+    100014: Deer_l_FrontLeg_AnkleSHJnt
+    100016: Deer_l_FrontLeg_BallSHJnt
+    100018: Deer_l_FrontLeg_HipSHJnt
+    100020: Deer_l_FrontLeg_Knee1SHJnt
+    100022: Deer_l_FrontLeg_Knee2SHJnt
+    100024: Deer_l_FrontLeg_ToeSHJnt
+    100026: Deer_l_HindLeg_AnkleSHJnt
+    100028: Deer_l_HindLeg_BallSHJnt
+    100030: Deer_l_HindLeg_HipSHJnt
+    100032: Deer_l_HindLeg_Knee1SHJnt
+    100034: Deer_l_HindLeg_Knee2SHJnt
+    100036: Deer_l_HindLeg_ToeSHJnt
+    100038: Deer_MAINSHJnt
+    100040: Deer_Neck_01SHJnt
+    100042: Deer_Neck_02SHJnt
+    100044: Deer_Neck_TopSHJnt
+    100046: Deer_r_Clavicle_01_01SHJnt
+    100048: Deer_r_Ear_01_01SHJnt
+    100050: Deer_r_Ear_01_02SHJnt
+    100052: Deer_r_Ear_01_03SHJnt
+    100054: Deer_r_FrontLeg_AnkleSHJnt
+    100056: Deer_r_FrontLeg_BallSHJnt
+    100058: Deer_r_FrontLeg_HipSHJnt
+    100060: Deer_r_FrontLeg_Knee1SHJnt
+    100062: Deer_r_FrontLeg_Knee2SHJnt
+    100064: Deer_r_FrontLeg_ToeSHJnt
+    100066: Deer_r_HindLeg_AnkleSHJnt
+    100068: Deer_r_HindLeg_BallSHJnt
+    100070: Deer_r_HindLeg_HipSHJnt
+    100072: Deer_r_HindLeg_Knee1SHJnt
+    100074: Deer_r_HindLeg_Knee2SHJnt
+    100076: Deer_r_HindLeg_ToeSHJnt
+    100078: Deer_ROOTSHJnt
+    100080: Deer_Spine_01SHJnt
+    100082: Deer_Spine_02SHJnt
+    100084: Deer_Spine_03SHJnt
+    100086: Deer_Spine_04SHJnt
+    100088: Deer_Spine_TopSHJnt
+    100090: Deer_Tail_01_01SHJnt
+    100092: Deer_Tail_01_02SHJnt
+    100094: Deer_Tail_01_03SHJnt
+    100096: //RootNode
+    400000: Deer_Head_JawEndSHJnt
+    400002: Deer_Head_JawSHJnt
+    400004: Deer_Head_TopSHJnt
+    400006: Deer_l_Clavicle_01_01SHJnt
+    400008: Deer_l_Ear_01_01SHJnt
+    400010: Deer_l_Ear_01_02SHJnt
+    400012: Deer_l_Ear_01_03SHJnt
+    400014: Deer_l_FrontLeg_AnkleSHJnt
+    400016: Deer_l_FrontLeg_BallSHJnt
+    400018: Deer_l_FrontLeg_HipSHJnt
+    400020: Deer_l_FrontLeg_Knee1SHJnt
+    400022: Deer_l_FrontLeg_Knee2SHJnt
+    400024: Deer_l_FrontLeg_ToeSHJnt
+    400026: Deer_l_HindLeg_AnkleSHJnt
+    400028: Deer_l_HindLeg_BallSHJnt
+    400030: Deer_l_HindLeg_HipSHJnt
+    400032: Deer_l_HindLeg_Knee1SHJnt
+    400034: Deer_l_HindLeg_Knee2SHJnt
+    400036: Deer_l_HindLeg_ToeSHJnt
+    400038: Deer_MAINSHJnt
+    400040: Deer_Neck_01SHJnt
+    400042: Deer_Neck_02SHJnt
+    400044: Deer_Neck_TopSHJnt
+    400046: Deer_r_Clavicle_01_01SHJnt
+    400048: Deer_r_Ear_01_01SHJnt
+    400050: Deer_r_Ear_01_02SHJnt
+    400052: Deer_r_Ear_01_03SHJnt
+    400054: Deer_r_FrontLeg_AnkleSHJnt
+    400056: Deer_r_FrontLeg_BallSHJnt
+    400058: Deer_r_FrontLeg_HipSHJnt
+    400060: Deer_r_FrontLeg_Knee1SHJnt
+    400062: Deer_r_FrontLeg_Knee2SHJnt
+    400064: Deer_r_FrontLeg_ToeSHJnt
+    400066: Deer_r_HindLeg_AnkleSHJnt
+    400068: Deer_r_HindLeg_BallSHJnt
+    400070: Deer_r_HindLeg_HipSHJnt
+    400072: Deer_r_HindLeg_Knee1SHJnt
+    400074: Deer_r_HindLeg_Knee2SHJnt
+    400076: Deer_r_HindLeg_ToeSHJnt
+    400078: Deer_ROOTSHJnt
+    400080: Deer_Spine_01SHJnt
+    400082: Deer_Spine_02SHJnt
+    400084: Deer_Spine_03SHJnt
+    400086: Deer_Spine_04SHJnt
+    400088: Deer_Spine_TopSHJnt
+    400090: Deer_Tail_01_01SHJnt
+    400092: Deer_Tail_01_02SHJnt
+    400094: Deer_Tail_01_03SHJnt
+    400096: //RootNode
+    7400000: Deer_walk
+    9500000: //RootNode
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -314,7 +116,6 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -323,7 +124,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -335,7 +135,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Deer_walk
       takeName: Take 001
-      internalID: 0
       firstFrame: 1
       lastFrame: 29
       wrapMode: 0
@@ -360,40 +159,26 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    optimizeBones: 1
-    meshOptimizationFlags: -1
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -401,260 +186,12 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
-    skeleton:
-    - name: Deer_Walk(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_MAINSHJnt
-      parentName: Deer_Walk(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_ROOTSHJnt
-      parentName: Deer_MAINSHJnt
-      position: {x: 0.0014469363, y: 0.67502487, z: -0.09980506}
-      rotation: {x: -0.7118991, y: -0.021960925, z: 0.013569106, w: 0.70180714}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Spine_01SHJnt
-      parentName: Deer_ROOTSHJnt
-      position: {x: 0.013931749, y: -0.000029639137, z: 0.1600633}
-      rotation: {x: -0.45848876, y: 0.539422, z: 0.53831965, w: 0.45719135}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Spine_02SHJnt
-      parentName: Deer_Spine_01SHJnt
-      position: {x: -0.16072562, y: 0.0045953477, z: 0.0021836704}
-      rotation: {x: -0.0011854715, y: -0.024455873, z: -0.053667232, w: 0.99825865}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Spine_03SHJnt
-      parentName: Deer_Spine_02SHJnt
-      position: {x: -0.16013473, y: 0.0061084875, z: -0.0039161947}
-      rotation: {x: 0.9983508, y: -0.054767694, z: 0.01685525, w: 0.003480279}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Spine_04SHJnt
-      parentName: Deer_Spine_03SHJnt
-      position: {x: -0.16088077, y: 0.00087966723, z: 0.0036650081}
-      rotation: {x: -0.008749747, y: 0.08129109, z: 0.05359012, w: 0.99521023}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Spine_TopSHJnt
-      parentName: Deer_Spine_04SHJnt
-      position: {x: -0.15675293, y: 0.02106815, z: -0.027985211}
-      rotation: {x: 0.009919467, y: -0.12096669, z: -0.08112312, w: 0.9892865}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_Clavicle_01_01SHJnt
-      parentName: Deer_Spine_TopSHJnt
-      position: {x: 1.4210854e-16, y: -0.086702965, z: -2.842171e-16}
-      rotation: {x: 0.30110332, y: -0.333085, z: 0.62614703, w: 0.63744104}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_FrontLeg_HipSHJnt
-      parentName: Deer_l_Clavicle_01_01SHJnt
-      position: {x: -0.031649623, y: 2.1316282e-16, z: 0.08962554}
-      rotation: {x: -0.67406154, y: 0.32153106, z: 0.34793964, w: 0.5667423}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_FrontLeg_Knee1SHJnt
-      parentName: Deer_l_FrontLeg_HipSHJnt
-      position: {x: -0.42060974, y: -8.792966e-16, z: 1.4210854e-16}
-      rotation: {x: 0, y: -0.000000070735396, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_FrontLeg_Knee2SHJnt
-      parentName: Deer_l_FrontLeg_Knee1SHJnt
-      position: {x: -0.26291105, y: -5.684342e-16, z: 7.105427e-16}
-      rotation: {x: 0.022759011, y: 0.179329, z: 0.005604365, w: 0.98350996}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_FrontLeg_AnkleSHJnt
-      parentName: Deer_l_FrontLeg_Knee2SHJnt
-      position: {x: -0.030633496, y: -7.105427e-17, z: 7.105427e-17}
-      rotation: {x: -0.001493403, y: -0.37319446, z: -0.038323205, w: 0.9269601}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_FrontLeg_BallSHJnt
-      parentName: Deer_l_FrontLeg_AnkleSHJnt
-      position: {x: -0.067529194, y: -1.3322676e-16, z: 0.048022788}
-      rotation: {x: 0.00030039353, y: 0.3235592, z: -0.00012294884, w: 0.9462078}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_FrontLeg_ToeSHJnt
-      parentName: Deer_l_FrontLeg_BallSHJnt
-      position: {x: -0.05773341, y: 1.7763568e-17, z: 1.7763568e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_Clavicle_01_01SHJnt
-      parentName: Deer_Spine_TopSHJnt
-      position: {x: 1.4210854e-16, y: 0.086702965, z: -2.842171e-16}
-      rotation: {x: -0.13186604, y: 0.48136178, z: 0.66836655, w: 0.5515327}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_FrontLeg_HipSHJnt
-      parentName: Deer_r_Clavicle_01_01SHJnt
-      position: {x: 0.031649623, y: 2.6645352e-17, z: 0.08962554}
-      rotation: {x: 0.33026776, y: -0.64197683, z: -0.6137572, w: -0.31951717}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_FrontLeg_Knee1SHJnt
-      parentName: Deer_r_FrontLeg_HipSHJnt
-      position: {x: -0.42060974, y: -9.769963e-16, z: 1.0658141e-16}
-      rotation: {x: 0, y: -0.00000007073528, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_FrontLeg_Knee2SHJnt
-      parentName: Deer_r_FrontLeg_Knee1SHJnt
-      position: {x: -0.26291105, y: -6.750156e-16, z: 6.750156e-16}
-      rotation: {x: 0.012050122, y: 0.026021905, z: 0.023384212, w: 0.9993152}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_FrontLeg_AnkleSHJnt
-      parentName: Deer_r_FrontLeg_Knee2SHJnt
-      position: {x: -0.030633496, y: -8.8817837e-17, z: 1.4210854e-16}
-      rotation: {x: -0.004159335, y: -0.19364317, z: -0.060475186, w: 0.9791975}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_FrontLeg_BallSHJnt
-      parentName: Deer_r_FrontLeg_AnkleSHJnt
-      position: {x: -0.067529194, y: -1.8651746e-16, z: 0.048022788}
-      rotation: {x: 0.000028205728, y: 0.7052462, z: -0.00016305292, w: 0.70896244}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_FrontLeg_ToeSHJnt
-      parentName: Deer_r_FrontLeg_BallSHJnt
-      position: {x: -0.05773341, y: -1.7763568e-17, z: -1.3877788e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Neck_01SHJnt
-      parentName: Deer_Spine_TopSHJnt
-      position: {x: -0.10814735, y: 2.3125788e-17, z: -0.08523509}
-      rotation: {x: 0.00462147, y: -0.25289643, z: -0.01119033, w: 0.9674176}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Neck_02SHJnt
-      parentName: Deer_Neck_01SHJnt
-      position: {x: -0.13970882, y: 6.4626907e-17, z: 0.006183534}
-      rotation: {x: 0.000000006983617, y: -0.11192735, z: 0.00000002876737, w: 0.9937164}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Neck_TopSHJnt
-      parentName: Deer_Neck_02SHJnt
-      position: {x: -0.136976, y: 3.3312445e-19, z: 0.028657293}
-      rotation: {x: -0.000000005909074, y: 0.035717312, z: 0.000000024798583, w: 0.99936193}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Head_JawSHJnt
-      parentName: Deer_Neck_TopSHJnt
-      position: {x: -0.14436595, y: 1.9862066e-16, z: 0.21074474}
-      rotation: {x: -0.15335597, y: -0.15335597, z: 0.69027674, w: 0.69027674}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Head_JawEndSHJnt
-      parentName: Deer_Head_JawSHJnt
-      position: {x: -2.7583578e-17, y: -0.028670447, z: 0.1178747}
-      rotation: {x: 0.8470922, y: 0, z: 0, w: 0.5314459}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Head_TopSHJnt
-      parentName: Deer_Neck_TopSHJnt
-      position: {x: -0.2846859, y: 2.3391368e-16, z: -0.012087273}
-      rotation: {x: -0.121232495, y: -0.121232495, z: 0.69663674, w: 0.69663674}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_Ear_01_01SHJnt
-      parentName: Deer_Head_TopSHJnt
-      position: {x: -0.0795911, y: -0.058521323, z: -0.027648691}
-      rotation: {x: 0.6564282, y: -0.22116439, z: -0.24259846, w: 0.679216}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_Ear_01_02SHJnt
-      parentName: Deer_l_Ear_01_01SHJnt
-      position: {x: -0.08658441, y: 7.105427e-16, z: 1.7053025e-15}
-      rotation: {x: 2.803436e-15, y: -0.08701651, z: -6.9892606e-16, w: 0.9962069}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_Ear_01_03SHJnt
-      parentName: Deer_l_Ear_01_02SHJnt
-      position: {x: -0.099745564, y: 1.2789769e-15, z: 7.105427e-16}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_Ear_01_01SHJnt
-      parentName: Deer_Head_TopSHJnt
-      position: {x: 0.0795911, y: -0.058521323, z: -0.027648691}
-      rotation: {x: 0.6564282, y: 0.22116439, z: 0.24259846, w: 0.679216}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_Ear_01_02SHJnt
-      parentName: Deer_r_Ear_01_01SHJnt
-      position: {x: 0.08658441, y: 1.847411e-15, z: 2.131628e-15}
-      rotation: {x: -1.3753635e-15, y: 0.08701651, z: 7.592176e-15, w: 0.9962069}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_Ear_01_03SHJnt
-      parentName: Deer_r_Ear_01_02SHJnt
-      position: {x: 0.099745564, y: 3.4816593e-15, z: 8.5265126e-16}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_HindLeg_HipSHJnt
-      parentName: Deer_ROOTSHJnt
-      position: {x: -0.11914255, y: -0.08962554, z: 7.105427e-17}
-      rotation: {x: 0.48431948, y: -0.42304134, z: 0.5355912, w: 0.54736906}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_HindLeg_Knee1SHJnt
-      parentName: Deer_l_HindLeg_HipSHJnt
-      position: {x: -0.3703383, y: -4.4408918e-17, z: 0}
-      rotation: {x: -0.0008562503, y: -0.025495375, z: -0.0063461796, w: 0.9996544}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_HindLeg_Knee2SHJnt
-      parentName: Deer_l_HindLeg_Knee1SHJnt
-      position: {x: -0.31094003, y: -2.8497569e-11, z: -1.4210854e-16}
-      rotation: {x: 0.02458455, y: 0.07733619, z: 0.0073350556, w: 0.99667495}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_HindLeg_AnkleSHJnt
-      parentName: Deer_l_HindLeg_Knee2SHJnt
-      position: {x: -0.049264736, y: -1.9539925e-16, z: -2.842171e-16}
-      rotation: {x: -0.06108079, y: 0.6011949, z: -0.010542259, w: 0.79669493}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_HindLeg_BallSHJnt
-      parentName: Deer_l_HindLeg_AnkleSHJnt
-      position: {x: -0.060050547, y: -1.7763568e-17, z: 0.023065593}
-      rotation: {x: 0.0000011582196, y: 0.7070954, z: -0.0000026051166, w: 0.7071182}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_l_HindLeg_ToeSHJnt
-      parentName: Deer_l_HindLeg_BallSHJnt
-      position: {x: -0.073380366, y: 1.7763568e-17, z: 8.148863e-18}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_HindLeg_HipSHJnt
-      parentName: Deer_ROOTSHJnt
-      position: {x: 0.118505046, y: -0.109973334, z: -0.003635559}
-      rotation: {x: 0.42577758, y: -0.47155127, z: 0.51949173, w: 0.57138544}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_HindLeg_Knee1SHJnt
-      parentName: Deer_r_HindLeg_HipSHJnt
-      position: {x: -0.3703383, y: 2.2204459e-17, z: 1.4210854e-16}
-      rotation: {x: -0.0025662628, y: 0.027287927, z: -0.013625292, w: 0.99953145}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_HindLeg_Knee2SHJnt
-      parentName: Deer_r_HindLeg_Knee1SHJnt
-      position: {x: -0.31094003, y: 2.849751e-11, z: -9.7699626e-17}
-      rotation: {x: 0.012338899, y: -0.57952154, z: 0.04166619, w: 0.81379765}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_HindLeg_AnkleSHJnt
-      parentName: Deer_r_HindLeg_Knee2SHJnt
-      position: {x: -0.049264736, y: 2.4868996e-16, z: 2.1316282e-16}
-      rotation: {x: 0.049613927, y: 0.69449615, z: -0.043953426, w: 0.7164368}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_HindLeg_BallSHJnt
-      parentName: Deer_r_HindLeg_AnkleSHJnt
-      position: {x: -0.060050547, y: 8.881784e-18, z: 0.023065593}
-      rotation: {x: -0.00000002265869, y: 0.7071045, z: 0.000000054211643, w: 0.7071091}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_r_HindLeg_ToeSHJnt
-      parentName: Deer_r_HindLeg_BallSHJnt
-      position: {x: -0.073380366, y: 0, z: -7.105427e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Tail_01_01SHJnt
-      parentName: Deer_ROOTSHJnt
-      position: {x: -2.9309886e-16, y: 0.03122284, z: -0.1740688}
-      rotation: {x: -0.09428115, y: -0.7262451, z: 0.055697884, w: 0.6786582}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Tail_01_02SHJnt
-      parentName: Deer_Tail_01_01SHJnt
-      position: {x: -0.0686526, y: -0.03678272, z: 1.7763568e-17}
-      rotation: {x: 3.2454243e-17, y: 3.9564224e-17, z: 0.44535568, w: 0.89535373}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Deer_Tail_01_03SHJnt
-      parentName: Deer_Tail_01_02SHJnt
-      position: {x: -0.084385194, y: -0.045908272, z: 5.3290704e-17}
-      rotation: {x: -1.4253567e-16, y: 6.056529e-18, z: 0.23578833, w: 0.97180444}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -662,18 +199,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
