@@ -72,6 +72,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/SSB/02.Objects/as01-bambusa-vulgaris-golden-bamboo/source/primary upload/primary upload/BambusaVulgaris-Master.fbx
 Assets/SSB/02.Objects/as01-bambusa-vulgaris-golden-bamboo/source/primary upload/primary upload/BambusaVulgaris-Master.fbx.meta
+<<<<<<< HEAD
 Assets/SSB/04.Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset
 Assets/SSB/04.Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset
 Assets/SSB/04.Assets/Free Island Collection/Environment/Terrain/Terrains/Terrain 5.asset
+=======
+>>>>>>> parent of 64e09b6 (hdrp postprocessing)
