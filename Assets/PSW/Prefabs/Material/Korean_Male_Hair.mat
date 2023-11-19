@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8045375714877987662
+--- !u!114 &-7190856519407017571
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27,7 +27,6 @@ Material:
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
-  - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -49,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: d1430c7ed655d094f8a3149ea0b7d30c, type: 3}
+        m_Texture: {fileID: 2800000, guid: c5496d8c2770fd7478d0a589361ee49e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -61,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 4cc5816e8b24dce42813c9bb5a4747d7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
@@ -105,7 +104,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d1430c7ed655d094f8a3149ea0b7d30c, type: 3}
+        m_Texture: {fileID: 2800000, guid: c5496d8c2770fd7478d0a589361ee49e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -117,7 +116,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 4cc5816e8b24dce42813c9bb5a4747d7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -236,7 +235,7 @@ Material:
     - _MetallicRemapMin: 0
     - _Mode: 0
     - _NormalMapSpace: 0
-    - _NormalScale: 2
+    - _NormalScale: 1
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 5
@@ -249,7 +248,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _Smoothness: 0.31
+    - _Smoothness: 0.1
     - _SmoothnessRemapMax: 0.1
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
