@@ -39,7 +39,7 @@ MonoBehaviour:
     m_Value: 20
   m_NearSampleCount:
     m_OverrideState: 0
-    m_Value: 5
+    m_Value: 3
   m_NearMaxBlur:
     m_OverrideState: 0
     m_Value: 4
@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Value: 16
   m_FarMaxBlur:
     m_OverrideState: 1
-    m_Value: 3.96
+    m_Value: 0
   m_Resolution:
     m_OverrideState: 1
     m_Value: 2
