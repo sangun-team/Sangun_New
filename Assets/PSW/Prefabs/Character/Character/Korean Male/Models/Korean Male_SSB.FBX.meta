@@ -19,8 +19,8 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
       does not match position in animation file:\n\t'Josun_Male_R_Clavicle' : position
-      error = 190.177505 mm\n\t'Josun_Male_R_UpperArm' : position error = 10.553252
-      mm\n\t'Josun_Male_R_Forearm' : position error = 8.023341 mm\n"
+      error = 190.187576 mm\n\t'Josun_Male_R_UpperArm' : position error = 10.554135
+      mm\n\t'Josun_Male_R_Forearm' : position error = 8.023724 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -564,7 +564,7 @@ ModelImporter:
     - name: Josun_Male_Head
       parentName: Josun_Male_Neck
       position: {x: -0.101751246, y: 0.000000038146972, z: 0}
-      rotation: {x: 0.000000029802322, y: -0.0000003874302, z: 0.15279886, w: 0.9882574}
+      rotation: {x: 0.76661664, y: 0.118529186, z: 0.096428216, w: 0.6236597}
       scale: {x: 0.9999999, y: 0.99999994, z: 0.99999976}
     - name: Josun_Male_HeadNub
       parentName: Josun_Male_Head
@@ -654,7 +654,7 @@ ModelImporter:
     - name: Josun_Male_L_Finger3
       parentName: Josun_Male_L_Hand
       position: {x: -0.062681615, y: -0.001982956, z: 0.014170456}
-      rotation: {x: -0.004705564, y: -0.00030878655, z: -0.032598663, w: 0.9994575}
+      rotation: {x: -0.004705562, y: -0.00030878655, z: -0.032598644, w: 0.9994575}
       scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
     - name: Josun_Male_L_Finger31
       parentName: Josun_Male_L_Finger3
