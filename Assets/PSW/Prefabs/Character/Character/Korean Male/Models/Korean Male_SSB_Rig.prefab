@@ -1229,7 +1229,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3797830740732857525}
-  - component: {fileID: 7085488479874651855}
   m_Layer: 0
   m_Name: Korean Male_SSB_Rig
   m_TagString: Untagged
@@ -1255,27 +1254,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 5.973, y: 153.716, z: 5.19}
---- !u!95 &7085488479874651855
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4611486196160304655}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 789be70bec0022d4cb017cc89af102cf, type: 2}
-  m_Controller: {fileID: 9100000, guid: 5d98c554fe8ddf24bb102408e456f2c9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4615762285875655360
 GameObject:
   m_ObjectHideFlags: 0
