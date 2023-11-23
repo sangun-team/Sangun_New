@@ -156,7 +156,7 @@ Material:
     - _CoatMask: 0
     - _ColorNoiseSpread: 2
     - _ConservativeDepthOffsetEnable: 0
-    - _CullFarDistance: 5
+    - _CullFarDistance: 1000
     - _CullFarStart: 25
     - _CullMode: 0
     - _CullModeForward: 0
